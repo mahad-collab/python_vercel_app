@@ -4,7 +4,7 @@
   "questions": [
     {
       "id": 1,
-      "question": "Replace this with your question text (Q1)",
+      "question": "Replace this with your quest text (Q1)",
       "options": {
         "a": "Option A",
         "b": "Option B",
