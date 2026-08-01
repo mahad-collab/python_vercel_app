@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ quiz_title }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <div class="page">
+    <div class="card">
+      <div class="card__band">
+        <div class="eyebrow"><span class="crescent-mark"></span> 14 August</div>
+        <h1>{{ quiz_title }}</h1>
+      </div>
+      <div class="card__body">
+        {% if error %}
+          <div class="error-banner">{{ error }}</div>
+        {% endif %}
+        <form method="POST" action="{{ url_for('do_join') }}">
+          <label for="employee_name">Full name</label>
+          <input type="text" id="employee_name" name="employee_name" placeholder="e.g. Ayesha Khan" required />
+
+          <label for="employee_id">Employee ID</label>
+          <input type="text" id="employee_id" name="employee_id" placeholder="e.g. EMP-1042" required />
+
+          <label for="department">Department (optional)</label>
+          <input type="text" id="department" name="department" placeholder="e.g. IT" />
+
+          <button type="submit" class="btn">Start the quiz</button>
+        </form>
+        <p class="helper-text">
+          You get one attempt and {{ duration }} minutes for all questions.
+          The clock starts the moment you tap "Start the quiz" — so make sure you're ready.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

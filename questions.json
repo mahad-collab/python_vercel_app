@@ -1,0 +1,226 @@
+{
+  "quiz_title": "Jashn-e-Azadi Quiz 2026",
+  "duration_minutes": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Replace this with your question text (Q1)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 2,
+      "question": "Replace this with your question text (Q2)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 3,
+      "question": "Replace this with your question text (Q3)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 4,
+      "question": "Replace this with your question text (Q4)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "question": "Replace this with your question text (Q5)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 6,
+      "question": "Replace this with your question text (Q6)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 7,
+      "question": "Replace this with your question text (Q7)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 8,
+      "question": "Replace this with your question text (Q8)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 9,
+      "question": "Replace this with your question text (Q9)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 10,
+      "question": "Replace this with your question text (Q10)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 11,
+      "question": "Replace this with your question text (Q11)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 12,
+      "question": "Replace this with your question text (Q12)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 13,
+      "question": "Replace this with your question text (Q13)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 14,
+      "question": "Replace this with your question text (Q14)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 15,
+      "question": "Replace this with your question text (Q15)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 16,
+      "question": "Replace this with your question text (Q16)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 17,
+      "question": "Replace this with your question text (Q17)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 18,
+      "question": "Replace this with your question text (Q18)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 19,
+      "question": "Replace this with your question text (Q19)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 20,
+      "question": "Replace this with your question text (Q20)",
+      "options": {
+        "a": "Option A",
+        "b": "Option B",
+        "c": "Option C",
+        "d": "Option D"
+      },
+      "answer": "a"
+    }
+  ]
+}

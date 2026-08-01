@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your result</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <div class="page">
+    <div class="card">
+      <div class="card__band">
+        <div class="eyebrow"><span class="crescent-mark"></span> Result</div>
+        <h1>
+          {% if already_attempted %}
+            Already submitted
+          {% elif timed_out %}
+            Time's up!
+          {% else %}
+            Nicely done, {{ name.split(' ')[0] }}!
+          {% endif %}
+        </h1>
+      </div>
+      <div class="card__body">
+        {% if already_attempted %}
+          <p class="helper-text" style="margin-top:0;font-size:14px;">
+            {{ name }}, you've already completed this quiz. Only one attempt is allowed per employee.
+            Here's what you scored:
+          </p>
+        {% elif timed_out %}
+          <p class="helper-text" style="margin-top:0;font-size:14px;">
+            Your {{ total }} minutes ran out before you submitted, so your answers were locked in as they were.
+          </p>
+        {% endif %}
+
+        <div class="result-score">
+          <div class="big-num">{{ score }}</div>
+          <div class="out-of">out of {{ total }}</div>
+        </div>
+
+        <div class="stat-row">
+          <div class="stat">
+            <div class="stat-value">{{ time_taken }}s</div>
+            <div class="stat-label">Time taken</div>
+          </div>
+          {% if rank %}
+          <div class="stat">
+            <div class="stat-value">#{{ rank }}</div>
+            <div class="stat-label">Current rank</div>
+          </div>
+          {% endif %}
+        </div>
+
+        <p class="helper-text">
+          Rank is based on highest score, then fastest completion time.
+          The final winner will be announced once everyone has attempted the quiz.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

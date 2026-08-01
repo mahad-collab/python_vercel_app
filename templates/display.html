@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ quiz_title }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <div class="display-shell">
+    <h1>{{ quiz_title }}</h1>
+    <div class="sub">Scan to join &nbsp;•&nbsp; 14 August</div>
+    <div class="qr-frame">
+      <img src="{{ qr_data_uri }}" alt="Scan to join the quiz" width="360" height="360" />
+    </div>
+    <p class="instructions">
+      Open your phone's camera, point it at the QR code above, and tap the link that appears.
+      You'll get one attempt, so read each question carefully.
+    </p>
+    <p class="instructions" style="opacity:0.7;font-size:13px;">
+      QR not showing or not scanning? Open this link directly on your phone instead:<br>
+      <strong>{{ join_url }}</strong>
+    </p>
+  </div>
+</body>
+</html>

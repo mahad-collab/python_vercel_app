@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ quiz_title }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <form id="quizForm" method="POST" action="{{ url_for('submit_quiz') }}">
+    <div class="quiz-shell">
+      <div class="quiz-header">
+        <h2>{{ quiz_title }}</h2>
+        <div class="timer" id="timer">--:--</div>
+      </div>
+
+      {% for q in questions %}
+      <div class="q-block">
+        <span class="q-number">Question {{ loop.index }} / {{ questions|length }}</span>
+        <p class="q-text">{{ q.question }}</p>
+        {% for key, label in q.options.items() %}
+        <label class="opt" data-name="q{{ q.id }}">
+          <input type="radio" name="q{{ q.id }}" value="{{ key }}" required />
+          <span>{{ label }}</span>
+        </label>
+        {% endfor %}
+      </div>
+      {% endfor %}
+
+      <div class="submit-bar">
+        <button type="submit" class="btn" id="submitBtn">Submit my answers</button>
+      </div>
+    </div>
+  </form>
+
+  <script>
+    let remaining = {{ remaining_seconds }};
+    const timerEl = document.getElementById('timer');
+    const form = document.getElementById('quizForm');
+    let submitted = false;
+
+    function formatTime(s) {
+      const m = Math.floor(s / 60).toString().padStart(2, '0');
+      const sec = (s % 60).toString().padStart(2, '0');
+      return m + ':' + sec;
+    }
+
+    function tick() {
+      if (submitted) return;
+      timerEl.textContent = formatTime(remaining);
+      if (remaining <= 60) timerEl.classList.add('low');
+      if (remaining <= 0) {
+        submitted = true;
+        form.submit();
+        return;
+      }
+      remaining -= 1;
+      setTimeout(tick, 1000);
+    }
+    tick();
+
+    // Highlight selected option
+    document.querySelectorAll('.opt').forEach(function (optEl) {
+      optEl.addEventListener('click', function () {
+        const name = optEl.getAttribute('data-name');
+        document.querySelectorAll('.opt[data-name="' + name + '"]').forEach(function (sib) {
+          sib.classList.remove('selected');
+        });
+        optEl.classList.add('selected');
+      });
+    });
+
+    form.addEventListener('submit', function () {
+      submitted = true;
+    });
+  </script>
+</body>
+</html>

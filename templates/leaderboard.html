@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="refresh" content="8" />
+  <title>Leaderboard — {{ quiz_title }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <div class="page">
+    <div class="card" style="max-width:680px;">
+      <div class="card__band">
+        <div class="eyebrow"><span class="crescent-mark"></span> Live standings</div>
+        <h1>{{ quiz_title }}</h1>
+      </div>
+      <div class="card__body">
+        {% if rows|length == 0 %}
+          <p class="helper-text" style="margin-top:0;">No submissions yet — the board updates automatically as staff finish the quiz.</p>
+        {% else %}
+        <table class="lb-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Department</th>
+              <th>Score</th>
+              <th>Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for r in rows %}
+            <tr>
+              <td><span class="rank-pill">{{ loop.index }}</span></td>
+              <td>{{ r.employee_name }}</td>
+              <td>{{ r.department or "—" }}</td>
+              <td>{{ r.score }} / {{ r.total_questions }}</td>
+              <td>{{ r.time_taken_seconds | round(0) | int }}s</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        {% endif %}
+        <p class="helper-text">This page refreshes automatically every few seconds.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
