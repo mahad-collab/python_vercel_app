@@ -35,7 +35,7 @@ with open(QUESTIONS_PATH, "r", encoding="utf-8") as f:
     QUIZ = json.load(f)
 
 QUIZ_TITLE = QUIZ.get("quiz_title", "Company Quiz")
-DURATION_MINUTES = QUIZ.get("duration_minutes", 10)
+DURATION_MINUTES = QUIZ.get("duration_minutes", 5)
 DURATION_SECONDS = DURATION_MINUTES * 60
 QUESTIONS = QUIZ["questions"]
 ANSWER_KEY = {str(q["id"]): q["answer"] for q in QUESTIONS}
