@@ -4,67 +4,67 @@
   "questions": [
     {
       "id": 1,
-      "question": "Replace this with your quest text (Q1)",
+      "question": "In which year did Pakistan got independence? (Q1)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "1947",
+        "b": "1957",
+        "c": "1967",
+        "d": "1977"
       },
       "answer": "a"
     },
     {
       "id": 2,
-      "question": "Replace this with your question text (Q2)",
+      "question": "Who is known as the founder of Pakistan? (Q2)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "Nawaz Sharif",
+        "b": "Imran Khan",
+        "c": "Quaid e Azam",
+        "d": "Tariq Masood"
       },
-      "answer": "a"
+      "answer": "c"
     },
     {
       "id": 3,
-      "question": "Replace this with your question text (Q3)",
+      "question": "Quaid e Azam Muhammad Ali Jinnah died on? (Q3)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "1932",
+        "b": "2004",
+        "c": "1948",
+        "d": "1999"
       },
-      "answer": "a"
+      "answer": "c"
     },
     {
       "id": 4,
-      "question": "Replace this with your question text (Q4)",
+      "question": "Pakistan's last constitution was written on? (Q4)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "1972",
+        "b": "1963",
+        "c": "1952",
+        "d": "1949"
       },
       "answer": "a"
     },
     {
       "id": 5,
-      "question": "Replace this with your question text (Q5)",
+      "question": "Which woman got the title of madr-e-millat? (Q5)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "Ratan Bai",
+        "b": "Fatima Ali Jinnah",
+        "c": "Maryam Nawaz",
+        "d": "Jannat Mirza"
       },
-      "answer": "a"
+      "answer": "b"
     },
     {
       "id": 6,
-      "question": "Replace this with your question text (Q6)",
+      "question": "Who is the current COAS of Pakistan? (Q6)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "Asim Munir",
+        "b": "Shahid Afridi",
+        "c": "Adolf Hitler",
+        "d": "Qaim Ali Shah"
       },
       "answer": "a"
     },
