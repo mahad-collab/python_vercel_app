@@ -6,12 +6,12 @@
       "id": 1,
       "question": "In which year did Pakistan got independence? (Q1)",
       "options": {
-        "a": "1947",
-        "b": "1957",
+        "a": "1957",
+        "b": "1947",
         "c": "1967",
         "d": "1977"
       },
-      "answer": "a"
+      "answer": "b"
     },
     {
       "id": 2,
@@ -19,10 +19,10 @@
       "options": {
         "a": "Nawaz Sharif",
         "b": "Imran Khan",
-        "c": "Quaid e Azam",
-        "d": "Tariq Masood"
+        "c": "Tariq Masood",
+        "d": "Quaid e Azam"
       },
-      "answer": "c"
+      "answer": "d"
     },
     {
       "id": 3,
@@ -30,197 +30,197 @@
       "options": {
         "a": "1932",
         "b": "2004",
-        "c": "1948",
-        "d": "1999"
+        "c": "1999",
+        "d": "1948"
       },
-      "answer": "c"
+      "answer": "d"
     },
     {
       "id": 4,
       "question": "Pakistan's last constitution was written on? (Q4)",
       "options": {
-        "a": "1972",
-        "b": "1963",
+        "a": "1963",
+        "b": "1972",
         "c": "1952",
         "d": "1949"
       },
-      "answer": "a"
+      "answer": "b"
     },
     {
       "id": 5,
       "question": "Which woman got the title of madr-e-millat? (Q5)",
       "options": {
         "a": "Ratan Bai",
-        "b": "Fatima Ali Jinnah",
-        "c": "Maryam Nawaz",
+        "b": "Maryam Nawaz",
+        "c": "Fatima Ali Jinnah",
         "d": "Jannat Mirza"
       },
-      "answer": "b"
+      "answer": "c"
     },
     {
       "id": 6,
       "question": "Who is the current COAS of Pakistan? (Q6)",
       "options": {
-        "a": "Asim Munir",
-        "b": "Shahid Afridi",
-        "c": "Adolf Hitler",
-        "d": "Qaim Ali Shah"
+        "a": "Shahid Afridi",
+        "b": "Adolf Hitler",
+        "c": "Qaim Ali Shah",
+        "d": "Asim Munir"
       },
-      "answer": "a"
+      "answer": "d"
     },
     {
       "id": 7,
       "question": "On which date is Pakistan's Independence Day celebrated? (Q7)",
       "options": {
-        "a": "14 August",
-        "b": "23 March",
-        "c": "6 September",
+        "a": "23 March",
+        "b": "6 September",
+        "c": "14 August",
         "d": "The day after payday"
       },
-      "answer": "a"
+      "answer": "c"
     },
     {
       "id": 8,
       "question": "What is the national language of Pakistan? (Q8)",
       "options": {
-        "a": "Urdu",
-        "b": "English",
-        "c": "Klingon",
-        "d": "Emoji"
+        "a": "English",
+        "b": "Klingon",
+        "c": "Emoji",
+        "d": "Urdu"
       },
-      "answer": "a"
+      "answer": "d"
     },
     {
       "id": 9,
       "question": "What do the colors of Pakistan's flag represent? (Q9)",
       "options": {
-        "a": "Green for Muslim majority, white for minorities",
-        "b": "Green for money, white for peace treaties",
+        "a": "Green for money, white for peace treaties",
+        "b": "Green for Muslim majority, white for minorities",
         "c": "Green for envy, white for surrender",
         "d": "Just the designer's favorite colors"
       },
-      "answer": "a"
+      "answer": "b"
     },
     {
       "id": 10,
       "question": "Which day is celebrated as Pakistan Resolution Day? (Q10)",
       "options": {
-        "a": "23 March",
-        "b": "14 August",
-        "c": "25 December",
-        "d": "1 April (April Fools obviously)"
+        "a": "14 August",
+        "b": "25 December",
+        "c": "1 April (April Fools obviously)",
+        "d": "23 March"
       },
-      "answer": "a"
+      "answer": "d"
     },
     {
       "id": 11,
       "question": "What is Pakistan's national anthem called? (Q11)",
       "options": {
-        "a": "Qaumi Taranah",
-        "b": "Dil Dil Pakistan",
+        "a": "Dil Dil Pakistan",
+        "b": "Qaumi Taranah",
         "c": "Jeeway Jeeway",
         "d": "The Wifi Password Song"
       },
-      "answer": "a"
+      "answer": "b"
     },
     {
       "id": 12,
       "question": "Who wrote the lyrics of Pakistan's national anthem? (Q12)",
       "options": {
-        "a": "Hafeez Jalandhari",
-        "b": "Allama Iqbal",
-        "c": "Faiz Ahmed Faiz",
-        "d": "ChatGPT"
+        "a": "Allama Iqbal",
+        "b": "Faiz Ahmed Faiz",
+        "c": "ChatGPT",
+        "d": "Hafeez Jalandhari"
       },
-      "answer": "a"
+      "answer": "d"
     },
     {
       "id": 13,
       "question": "Which poet is known as the 'Shair-e-Mashriq' (Poet of the East)? (Q13)",
       "options": {
-        "a": "Allama Iqbal",
-        "b": "Mirza Ghalib",
-        "c": "William Shakespeare",
+        "a": "Mirza Ghalib",
+        "b": "William Shakespeare",
+        "c": "Allama Iqbal",
         "d": "The guy who writes wedding shayari on Instagram"
       },
-      "answer": "a"
+      "answer": "c"
     },
     {
       "id": 14,
       "question": "What was the name of the movement demanding a separate Muslim homeland? (Q14)",
       "options": {
-        "a": "Pakistan Movement",
-        "b": "Non-Cooperation Movement",
-        "c": "Quit India Movement",
-        "d": "The Group Project Movement (everyone did nothing)"
+        "a": "Non-Cooperation Movement",
+        "b": "Quit India Movement",
+        "c": "The Group Project Movement (everyone did nothing)",
+        "d": "Pakistan Movement"
       },
-      "answer": "a"
+      "answer": "d"
     },
     {
       "id": 15,
       "question": "Which city was the first capital of Pakistan? (Q15)",
       "options": {
-        "a": "Karachi",
-        "b": "Islamabad",
+        "a": "Islamabad",
+        "b": "Karachi",
         "c": "Lahore",
         "d": "Wherever the wifi signal was strongest"
       },
-      "answer": "a"
+      "answer": "b"
     },
     {
       "id": 16,
       "question": "What is the national flower of Pakistan? (Q16)",
       "options": {
-        "a": "Jasmine (Chameli)",
-        "b": "Rose",
-        "c": "Sunflower",
-        "d": "The office fake plant"
+        "a": "Rose",
+        "b": "Sunflower",
+        "c": "The office fake plant",
+        "d": "Jasmine (Chameli)"
       },
-      "answer": "a"
+      "answer": "d"
     },
     {
       "id": 17,
       "question": "What is the national bird of Pakistan? (Q17)",
       "options": {
-        "a": "Chukar Partridge",
-        "b": "Peacock",
+        "a": "Peacock",
+        "b": "Chukar Partridge",
         "c": "Eagle",
         "d": "The office pigeon on the balcony"
       },
-      "answer": "a"
+      "answer": "b"
     },
     {
       "id": 18,
       "question": "What is the national animal of Pakistan? (Q18)",
       "options": {
-        "a": "Markhor",
-        "b": "Lion",
-        "c": "Tiger",
+        "a": "Lion",
+        "b": "Tiger",
+        "c": "Markhor",
         "d": "The cat that lives in the office parking lot"
       },
-      "answer": "a"
+      "answer": "c"
     },
     {
       "id": 19,
       "question": "Which mountain range is Pakistan famous for, home to K2? (Q19)",
       "options": {
-        "a": "Karakoram Range",
-        "b": "Alps",
-        "c": "Himalayas only",
-        "d": "The pile of files on your desk"
+        "a": "Alps",
+        "b": "Himalayas only",
+        "c": "The pile of files on your desk",
+        "d": "Karakoram Range"
       },
-      "answer": "a"
+      "answer": "d"
     },
     {
       "id": 20,
       "question": "Pakistan gained independence from which colonial power? (Q20)",
       "options": {
-        "a": "British Empire",
-        "b": "Portuguese Empire",
+        "a": "Portuguese Empire",
+        "b": "British Empire",
         "c": "Ottoman Empire",
         "d": "Monday mornings (still hasn't happened)"
       },
-      "answer": "a"
+      "answer": "b"
     }
   ]
 }
