@@ -70,155 +70,155 @@
     },
     {
       "id": 7,
-      "question": "Replace this with your question text (Q7)",
+      "question": "On which date is Pakistan's Independence Day celebrated? (Q7)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "14 August",
+        "b": "23 March",
+        "c": "6 September",
+        "d": "The day after payday"
       },
       "answer": "a"
     },
     {
       "id": 8,
-      "question": "Replace this with your question text (Q8)",
+      "question": "What is the national language of Pakistan? (Q8)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "Urdu",
+        "b": "English",
+        "c": "Klingon",
+        "d": "Emoji"
       },
       "answer": "a"
     },
     {
       "id": 9,
-      "question": "Replace this with your question text (Q9)",
+      "question": "What do the colors of Pakistan's flag represent? (Q9)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "Green for Muslim majority, white for minorities",
+        "b": "Green for money, white for peace treaties",
+        "c": "Green for envy, white for surrender",
+        "d": "Just the designer's favorite colors"
       },
       "answer": "a"
     },
     {
       "id": 10,
-      "question": "Replace this with your question text (Q10)",
+      "question": "Which day is celebrated as Pakistan Resolution Day? (Q10)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "23 March",
+        "b": "14 August",
+        "c": "25 December",
+        "d": "1 April (April Fools obviously)"
       },
       "answer": "a"
     },
     {
       "id": 11,
-      "question": "Replace this with your question text (Q11)",
+      "question": "What is Pakistan's national anthem called? (Q11)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "Qaumi Taranah",
+        "b": "Dil Dil Pakistan",
+        "c": "Jeeway Jeeway",
+        "d": "The Wifi Password Song"
       },
       "answer": "a"
     },
     {
       "id": 12,
-      "question": "Replace this with your question text (Q12)",
+      "question": "Who wrote the lyrics of Pakistan's national anthem? (Q12)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "Hafeez Jalandhari",
+        "b": "Allama Iqbal",
+        "c": "Faiz Ahmed Faiz",
+        "d": "ChatGPT"
       },
       "answer": "a"
     },
     {
       "id": 13,
-      "question": "Replace this with your question text (Q13)",
+      "question": "Which poet is known as the 'Shair-e-Mashriq' (Poet of the East)? (Q13)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "Allama Iqbal",
+        "b": "Mirza Ghalib",
+        "c": "William Shakespeare",
+        "d": "The guy who writes wedding shayari on Instagram"
       },
       "answer": "a"
     },
     {
       "id": 14,
-      "question": "Replace this with your question text (Q14)",
+      "question": "What was the name of the movement demanding a separate Muslim homeland? (Q14)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "Pakistan Movement",
+        "b": "Non-Cooperation Movement",
+        "c": "Quit India Movement",
+        "d": "The Group Project Movement (everyone did nothing)"
       },
       "answer": "a"
     },
     {
       "id": 15,
-      "question": "Replace this with your question text (Q15)",
+      "question": "Which city was the first capital of Pakistan? (Q15)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "Karachi",
+        "b": "Islamabad",
+        "c": "Lahore",
+        "d": "Wherever the wifi signal was strongest"
       },
       "answer": "a"
     },
     {
       "id": 16,
-      "question": "Replace this with your question text (Q16)",
+      "question": "What is the national flower of Pakistan? (Q16)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "Jasmine (Chameli)",
+        "b": "Rose",
+        "c": "Sunflower",
+        "d": "The office fake plant"
       },
       "answer": "a"
     },
     {
       "id": 17,
-      "question": "Replace this with your question text (Q17)",
+      "question": "What is the national bird of Pakistan? (Q17)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "Chukar Partridge",
+        "b": "Peacock",
+        "c": "Eagle",
+        "d": "The office pigeon on the balcony"
       },
       "answer": "a"
     },
     {
       "id": 18,
-      "question": "Replace this with your question text (Q18)",
+      "question": "What is the national animal of Pakistan? (Q18)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "Markhor",
+        "b": "Lion",
+        "c": "Tiger",
+        "d": "The cat that lives in the office parking lot"
       },
       "answer": "a"
     },
     {
       "id": 19,
-      "question": "Replace this with your question text (Q19)",
+      "question": "Which mountain range is Pakistan famous for, home to K2? (Q19)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "Karakoram Range",
+        "b": "Alps",
+        "c": "Himalayas only",
+        "d": "The pile of files on your desk"
       },
       "answer": "a"
     },
     {
       "id": 20,
-      "question": "Replace this with your question text (Q20)",
+      "question": "Pakistan gained independence from which colonial power? (Q20)",
       "options": {
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D"
+        "a": "British Empire",
+        "b": "Portuguese Empire",
+        "c": "Ottoman Empire",
+        "d": "Monday mornings (still hasn't happened)"
       },
       "answer": "a"
     }
