@@ -2,8 +2,7 @@
   "quiz_title": "Jashn-e-Azadi Quiz 2026",
   "duration_minutes": 5,
   "questions": [
-    [
-  {
+    
     "id": 1,
     "question": "The National Flag of Pakistan was adopted on:",
     "options": {
@@ -268,5 +267,3 @@
     "answer": "d"
   }
 ]
-  ]
-}
