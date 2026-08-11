@@ -2,225 +2,271 @@
   "quiz_title": "Jashn-e-Azadi Quiz 2026",
   "duration_minutes": 5,
   "questions": [
-    {
-      "id": 1,
-      "question": "In which year did Pakistan got independence? (Q1)",
-      "options": {
-        "a": "1957",
-        "b": "1947",
-        "c": "1967",
-        "d": "1977"
-      },
-      "answer": "b"
+    [
+  {
+    "id": 1,
+    "question": "The National Flag of Pakistan was adopted on:",
+    "options": {
+      "a": "August 15, 1947",
+      "b": "August 14, 1947",
+      "c": "August 11, 1947",
+      "d": "August 13, 1947"
     },
-    {
-      "id": 2,
-      "question": "Who is known as the founder of Pakistan? (Q2)",
-      "options": {
-        "a": "Nawaz Sharif",
-        "b": "Imran Khan",
-        "c": "Tariq Masood",
-        "d": "Quaid e Azam"
-      },
-      "answer": "d"
+    "answer": "a"
+  },
+  {
+    "id": 2,
+    "question": "Who presented the Objectives Resolution in Pakistan's Constituent Assembly in 1949?",
+    "options": {
+      "a": "Khawaja Nazimuddin",
+      "b": "Liaquat Ali Khan",
+      "c": "Muhammad Ali Jinnah",
+      "d": "Chaudhry Muhammad Ali"
     },
-    {
-      "id": 3,
-      "question": "Quaid e Azam Muhammad Ali Jinnah died on? (Q3)",
-      "options": {
-        "a": "1932",
-        "b": "2004",
-        "c": "1999",
-        "d": "1948"
-      },
-      "answer": "d"
+    "answer": "b"
+  },
+  {
+    "id": 3,
+    "question": "Which flower is the national flower of Pakistan?",
+    "options": {
+      "a": "Rose",
+      "b": "Jasmine",
+      "c": "Lily",
+      "d": "Sunflower"
     },
-    {
-      "id": 4,
-      "question": "Pakistan's last constitution was written on? (Q4)",
-      "options": {
-        "a": "1963",
-        "b": "1972",
-        "c": "1952",
-        "d": "1949"
-      },
-      "answer": "b"
+    "answer": "b"
+  },
+  {
+    "id": 4,
+    "question": "The National Anthem of Pakistan was officially adopted in:",
+    "options": {
+      "a": "1954",
+      "b": "1958",
+      "c": "1949",
+      "d": "1950"
     },
-    {
-      "id": 5,
-      "question": "Which woman got the title of madr-e-millat? (Q5)",
-      "options": {
-        "a": "Ratan Bai",
-        "b": "Maryam Nawaz",
-        "c": "Fatima Ali Jinnah",
-        "d": "Jannat Mirza"
-      },
-      "answer": "c"
+    "answer": "a"
+  },
+  {
+    "id": 5,
+    "question": "Who wrote the lyrics of Pakistan's National Anthem?",
+    "options": {
+      "a": "Allama Iqbal",
+      "b": "Josh Malihabadi",
+      "c": "Hafeez Jullundhri",
+      "d": "Asrar-ul-Haq Majaz"
     },
-    {
-      "id": 6,
-      "question": "Who is the current COAS of Pakistan? (Q6)",
-      "options": {
-        "a": "Shahid Afridi",
-        "b": "Adolf Hitler",
-        "c": "Qaim Ali Shah",
-        "d": "Asim Munir"
-      },
-      "answer": "d"
+    "answer": "c"
+  },
+  {
+    "id": 6,
+    "question": "Which Pakistani city is known as the \"City of Saints\"?",
+    "options": {
+      "a": "Bahawalpur",
+      "b": "Sukkur",
+      "c": "Multan",
+      "d": "Hyderabad"
     },
-    {
-      "id": 7,
-      "question": "On which date is Pakistan's Independence Day celebrated? (Q7)",
-      "options": {
-        "a": "23 March",
-        "b": "6 September",
-        "c": "14 August",
-        "d": "The day after payday"
-      },
-      "answer": "c"
+    "answer": "c"
+  },
+  {
+    "id": 7,
+    "question": "Which slogan became the rallying cry of the Pakistan Movement?",
+    "options": {
+      "a": "Unity, Faith, Discipline",
+      "b": "Inquilab Zindabad",
+      "c": "Pakistan ka matlab kiya?",
+      "d": "Quit India"
     },
-    {
-      "id": 8,
-      "question": "What is the national language of Pakistan? (Q8)",
-      "options": {
-        "a": "English",
-        "b": "Klingon",
-        "c": "Emoji",
-        "d": "Urdu"
-      },
-      "answer": "d"
+    "answer": "c"
+  },
+  {
+    "id": 8,
+    "question": "Who is known as the Poet of the East?",
+    "options": {
+      "a": "Mirza Ghalib",
+      "b": "Hafeez Jullundhri",
+      "c": "Allama Muhammad Iqbal",
+      "d": "Faiz Ahmed Faiz"
     },
-    {
-      "id": 9,
-      "question": "What do the colors of Pakistan's flag represent? (Q9)",
-      "options": {
-        "a": "Green for money, white for peace treaties",
-        "b": "Green for Muslim majority, white for minorities",
-        "c": "Green for envy, white for surrender",
-        "d": "Just the designer's favorite colors"
-      },
-      "answer": "b"
+    "answer": "c"
+  },
+  {
+    "id": 9,
+    "question": "Pakistan came into existence on:",
+    "options": {
+      "a": "August 15, 1947",
+      "b": "August 14, 1947",
+      "c": "August 13, 1947",
+      "d": "August 11, 1947"
     },
-    {
-      "id": 10,
-      "question": "Which day is celebrated as Pakistan Resolution Day? (Q10)",
-      "options": {
-        "a": "14 August",
-        "b": "25 December",
-        "c": "1 April (April Fools obviously)",
-        "d": "23 March"
-      },
-      "answer": "d"
+    "answer": "b"
+  },
+  {
+    "id": 10,
+    "question": "What is the national animal of Pakistan?",
+    "options": {
+      "a": "Markhor",
+      "b": "Lion",
+      "c": "Deer",
+      "d": "Snow Leopard"
     },
-    {
-      "id": 11,
-      "question": "What is Pakistan's national anthem called? (Q11)",
-      "options": {
-        "a": "Dil Dil Pakistan",
-        "b": "Qaumi Taranah",
-        "c": "Jeeway Jeeway",
-        "d": "The Wifi Password Song"
-      },
-      "answer": "b"
+    "answer": "a"
+  },
+  {
+    "id": 11,
+    "question": "Which province of Pakistan shares borders with both Iran and Afghanistan?",
+    "options": {
+      "a": "Punjab",
+      "b": "Sindh",
+      "c": "Khyber Pakhtunkhwa",
+      "d": "Balochistan"
     },
-    {
-      "id": 12,
-      "question": "Who wrote the lyrics of Pakistan's national anthem? (Q12)",
-      "options": {
-        "a": "Allama Iqbal",
-        "b": "Faiz Ahmed Faiz",
-        "c": "ChatGPT",
-        "d": "Hafeez Jalandhari"
-      },
-      "answer": "d"
+    "answer": "d"
+  },
+  {
+    "id": 12,
+    "question": "On which date did Quaid-e-Azam Muhammad Ali Jinnah deliver his famous address to the Constituent Assembly emphasizing religious freedom?",
+    "options": {
+      "a": "August 11, 1947",
+      "b": "August 11, 1947",
+      "c": "August 11, 1947",
+      "d": "September 11, 1948"
     },
-    {
-      "id": 13,
-      "question": "Which poet is known as the 'Shair-e-Mashriq' (Poet of the East)? (Q13)",
-      "options": {
-        "a": "Mirza Ghalib",
-        "b": "William Shakespeare",
-        "c": "Allama Iqbal",
-        "d": "The guy who writes wedding shayari on Instagram"
-      },
-      "answer": "c"
+    "answer": "a"
+  },
+  {
+    "id": 13,
+    "question": "Who designed the National Flag of Pakistan?",
+    "options": {
+      "a": "Quaid-e-Azam",
+      "b": "Liaquat Ali Khan",
+      "c": "Fatima Jinnah",
+      "d": "Ameer-uddin Kidwai"
     },
-    {
-      "id": 14,
-      "question": "What was the name of the movement demanding a separate Muslim homeland? (Q14)",
-      "options": {
-        "a": "Non-Cooperation Movement",
-        "b": "Quit India Movement",
-        "c": "The Group Project Movement (everyone did nothing)",
-        "d": "Pakistan Movement"
-      },
-      "answer": "d"
+    "answer": "d"
+  },
+  {
+    "id": 14,
+    "question": "What is the highest mountain peak in Pakistan?",
+    "options": {
+      "a": "Nanga Parbat",
+      "b": "Rakaposhi",
+      "c": "K2",
+      "d": "Tirich Mir"
     },
-    {
-      "id": 15,
-      "question": "Which city was the first capital of Pakistan? (Q15)",
-      "options": {
-        "a": "Islamabad",
-        "b": "Karachi",
-        "c": "Lahore",
-        "d": "Wherever the wifi signal was strongest"
-      },
-      "answer": "b"
+    "answer": "c"
+  },
+  {
+    "id": 15,
+    "question": "Which river is the longest in Pakistan?",
+    "options": {
+      "a": "Jhelum",
+      "b": "Ravi",
+      "c": "Chenab",
+      "d": "Indus"
     },
-    {
-      "id": 16,
-      "question": "What is the national flower of Pakistan? (Q16)",
-      "options": {
-        "a": "Rose",
-        "b": "Sunflower",
-        "c": "The office fake plant",
-        "d": "Jasmine (Chameli)"
-      },
-      "answer": "d"
+    "answer": "d"
+  },
+  {
+    "id": 16,
+    "question": "What is the national bird of Pakistan?",
+    "options": {
+      "a": "Eagle",
+      "b": "Chukar Partridge",
+      "c": "Falcon",
+      "d": "Peacock"
     },
-    {
-      "id": 17,
-      "question": "What is the national bird of Pakistan? (Q17)",
-      "options": {
-        "a": "Peacock",
-        "b": "Chukar Partridge",
-        "c": "Eagle",
-        "d": "The office pigeon on the balcony"
-      },
-      "answer": "b"
+    "answer": "b"
+  },
+  {
+    "id": 17,
+    "question": "The resolution was passed at Minto Park, which is also known as:",
+    "options": {
+      "a": "Lahore Park",
+      "b": "Greater Iqbal Park",
+      "c": "National Park Lahore",
+      "d": "Allama Iqbal Park"
     },
-    {
-      "id": 18,
-      "question": "What is the national animal of Pakistan? (Q18)",
-      "options": {
-        "a": "Lion",
-        "b": "Tiger",
-        "c": "Markhor",
-        "d": "The cat that lives in the office parking lot"
-      },
-      "answer": "c"
+    "answer": "b"
+  },
+  {
+    "id": 18,
+    "question": "Who wrote 'Lab pe Aati Hai Dua'?",
+    "options": {
+      "a": "Sir Syed",
+      "b": "Fatima Ali Jinnah",
+      "c": "Allama Iqbal",
+      "d": "Atta Ur Rehman"
     },
-    {
-      "id": 19,
-      "question": "Which mountain range is Pakistan famous for, home to K2? (Q19)",
-      "options": {
-        "a": "Alps",
-        "b": "Himalayas only",
-        "c": "The pile of files on your desk",
-        "d": "Karakoram Range"
-      },
-      "answer": "d"
+    "answer": "c"
+  },
+  {
+    "id": 19,
+    "question": "Pakistan's first Prime Minister was:",
+    "options": {
+      "a": "Khawaja Nazimuddin",
+      "b": "Liaquat Ali Khan",
+      "c": "Muhammad Ali Bogra",
+      "d": "Chaudhry Muhammad Ali"
     },
-    {
-      "id": 20,
-      "question": "Pakistan gained independence from which colonial power? (Q20)",
-      "options": {
-        "a": "Portuguese Empire",
-        "b": "British Empire",
-        "c": "Ottoman Empire",
-        "d": "Monday mornings (still hasn't happened)"
-      },
-      "answer": "b"
-    }
+    "answer": "b"
+  },
+  {
+    "id": 20,
+    "question": "What Pakistani scientist was awarded the Nobel Prize in Physics in 1979?",
+    "options": {
+      "a": "Abdul Qadeer",
+      "b": "Ishfaq Ahmed",
+      "c": "Abdus Salam",
+      "d": "Atta Ur Rehman"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 21,
+    "question": "Which city was the first capital of Pakistan?",
+    "options": {
+      "a": "Lahore",
+      "b": "Islamabad",
+      "c": "Karachi",
+      "d": "Rawalpindi"
+    },
+    "answer": "c"
+  },
+  {
+    "id": 22,
+    "question": "Which city is called the Manchester of Pakistan?",
+    "options": {
+      "a": "Faisalabad",
+      "b": "Lahore",
+      "c": "Islamabad",
+      "d": "Karachi"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 23,
+    "question": "How many stanzas does Pakistan's National Anthem have?",
+    "options": {
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "6"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 24,
+    "question": "Which dam is the largest in Pakistan?",
+    "options": {
+      "a": "Hub Dam",
+      "b": "Warsak Dam",
+      "c": "Mangla Dam",
+      "d": "Tarbela Dam"
+    },
+    "answer": "d"
+  }
+]
   ]
 }
