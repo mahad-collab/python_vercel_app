@@ -2,268 +2,269 @@
   "quiz_title": "Jashn-e-Azadi Quiz 2026",
   "duration_minutes": 5,
   "questions": [
-    
-    "id": 1,
-    "question": "The National Flag of Pakistan was adopted on:",
-    "options": {
-      "a": "August 15, 1947",
-      "b": "August 14, 1947",
-      "c": "August 11, 1947",
-      "d": "August 13, 1947"
+    {
+      "id": 1,
+      "question": "The National Flag of Pakistan was adopted on:",
+      "options": {
+        "a": "August 15, 1947",
+        "b": "August 14, 1947",
+        "c": "August 11, 1947",
+        "d": "August 13, 1947"
+      },
+      "answer": "a"
     },
-    "answer": "a"
-  },
-  {
-    "id": 2,
-    "question": "Who presented the Objectives Resolution in Pakistan's Constituent Assembly in 1949?",
-    "options": {
-      "a": "Khawaja Nazimuddin",
-      "b": "Liaquat Ali Khan",
-      "c": "Muhammad Ali Jinnah",
-      "d": "Chaudhry Muhammad Ali"
+    {
+      "id": 2,
+      "question": "Who presented the Objectives Resolution in Pakistan's Constituent Assembly in 1949?",
+      "options": {
+        "a": "Khawaja Nazimuddin",
+        "b": "Liaquat Ali Khan",
+        "c": "Muhammad Ali Jinnah",
+        "d": "Chaudhry Muhammad Ali"
+      },
+      "answer": "b"
     },
-    "answer": "b"
-  },
-  {
-    "id": 3,
-    "question": "Which flower is the national flower of Pakistan?",
-    "options": {
-      "a": "Rose",
-      "b": "Jasmine",
-      "c": "Lily",
-      "d": "Sunflower"
+    {
+      "id": 3,
+      "question": "Which flower is the national flower of Pakistan?",
+      "options": {
+        "a": "Rose",
+        "b": "Jasmine",
+        "c": "Lily",
+        "d": "Sunflower"
+      },
+      "answer": "b"
     },
-    "answer": "b"
-  },
-  {
-    "id": 4,
-    "question": "The National Anthem of Pakistan was officially adopted in:",
-    "options": {
-      "a": "1954",
-      "b": "1958",
-      "c": "1949",
-      "d": "1950"
+    {
+      "id": 4,
+      "question": "The National Anthem of Pakistan was officially adopted in:",
+      "options": {
+        "a": "1954",
+        "b": "1958",
+        "c": "1949",
+        "d": "1950"
+      },
+      "answer": "a"
     },
-    "answer": "a"
-  },
-  {
-    "id": 5,
-    "question": "Who wrote the lyrics of Pakistan's National Anthem?",
-    "options": {
-      "a": "Allama Iqbal",
-      "b": "Josh Malihabadi",
-      "c": "Hafeez Jullundhri",
-      "d": "Asrar-ul-Haq Majaz"
+    {
+      "id": 5,
+      "question": "Who wrote the lyrics of Pakistan's National Anthem?",
+      "options": {
+        "a": "Allama Iqbal",
+        "b": "Josh Malihabadi",
+        "c": "Hafeez Jullundhri",
+        "d": "Asrar-ul-Haq Majaz"
+      },
+      "answer": "c"
     },
-    "answer": "c"
-  },
-  {
-    "id": 6,
-    "question": "Which Pakistani city is known as the \"City of Saints\"?",
-    "options": {
-      "a": "Bahawalpur",
-      "b": "Sukkur",
-      "c": "Multan",
-      "d": "Hyderabad"
+    {
+      "id": 6,
+      "question": "Which Pakistani city is known as the \"City of Saints\"?",
+      "options": {
+        "a": "Bahawalpur",
+        "b": "Sukkur",
+        "c": "Multan",
+        "d": "Hyderabad"
+      },
+      "answer": "c"
     },
-    "answer": "c"
-  },
-  {
-    "id": 7,
-    "question": "Which slogan became the rallying cry of the Pakistan Movement?",
-    "options": {
-      "a": "Unity, Faith, Discipline",
-      "b": "Inquilab Zindabad",
-      "c": "Pakistan ka matlab kiya?",
-      "d": "Quit India"
+    {
+      "id": 7,
+      "question": "Which slogan became the rallying cry of the Pakistan Movement?",
+      "options": {
+        "a": "Unity, Faith, Discipline",
+        "b": "Inquilab Zindabad",
+        "c": "Pakistan ka matlab kiya?",
+        "d": "Quit India"
+      },
+      "answer": "c"
     },
-    "answer": "c"
-  },
-  {
-    "id": 8,
-    "question": "Who is known as the Poet of the East?",
-    "options": {
-      "a": "Mirza Ghalib",
-      "b": "Hafeez Jullundhri",
-      "c": "Allama Muhammad Iqbal",
-      "d": "Faiz Ahmed Faiz"
+    {
+      "id": 8,
+      "question": "Who is known as the Poet of the East?",
+      "options": {
+        "a": "Mirza Ghalib",
+        "b": "Hafeez Jullundhri",
+        "c": "Allama Muhammad Iqbal",
+        "d": "Faiz Ahmed Faiz"
+      },
+      "answer": "c"
     },
-    "answer": "c"
-  },
-  {
-    "id": 9,
-    "question": "Pakistan came into existence on:",
-    "options": {
-      "a": "August 15, 1947",
-      "b": "August 14, 1947",
-      "c": "August 13, 1947",
-      "d": "August 11, 1947"
+    {
+      "id": 9,
+      "question": "Pakistan came into existence on:",
+      "options": {
+        "a": "August 15, 1947",
+        "b": "August 14, 1947",
+        "c": "August 13, 1947",
+        "d": "August 11, 1947"
+      },
+      "answer": "b"
     },
-    "answer": "b"
-  },
-  {
-    "id": 10,
-    "question": "What is the national animal of Pakistan?",
-    "options": {
-      "a": "Markhor",
-      "b": "Lion",
-      "c": "Deer",
-      "d": "Snow Leopard"
+    {
+      "id": 10,
+      "question": "What is the national animal of Pakistan?",
+      "options": {
+        "a": "Markhor",
+        "b": "Lion",
+        "c": "Deer",
+        "d": "Snow Leopard"
+      },
+      "answer": "a"
     },
-    "answer": "a"
-  },
-  {
-    "id": 11,
-    "question": "Which province of Pakistan shares borders with both Iran and Afghanistan?",
-    "options": {
-      "a": "Punjab",
-      "b": "Sindh",
-      "c": "Khyber Pakhtunkhwa",
-      "d": "Balochistan"
+    {
+      "id": 11,
+      "question": "Which province of Pakistan shares borders with both Iran and Afghanistan?",
+      "options": {
+        "a": "Punjab",
+        "b": "Sindh",
+        "c": "Khyber Pakhtunkhwa",
+        "d": "Balochistan"
+      },
+      "answer": "d"
     },
-    "answer": "d"
-  },
-  {
-    "id": 12,
-    "question": "On which date did Quaid-e-Azam Muhammad Ali Jinnah deliver his famous address to the Constituent Assembly emphasizing religious freedom?",
-    "options": {
-      "a": "August 11, 1947",
-      "b": "August 11, 1947",
-      "c": "August 11, 1947",
-      "d": "September 11, 1948"
+    {
+      "id": 12,
+      "question": "On which date did Quaid-e-Azam Muhammad Ali Jinnah deliver his famous address to the Constituent Assembly emphasizing religious freedom?",
+      "options": {
+        "a": "August 11, 1947",
+        "b": "August 12, 1947",
+        "c": "August 13, 1947",
+        "d": "September 11, 1948"
+      },
+      "answer": "a"
     },
-    "answer": "a"
-  },
-  {
-    "id": 13,
-    "question": "Who designed the National Flag of Pakistan?",
-    "options": {
-      "a": "Quaid-e-Azam",
-      "b": "Liaquat Ali Khan",
-      "c": "Fatima Jinnah",
-      "d": "Ameer-uddin Kidwai"
+    {
+      "id": 13,
+      "question": "Who designed the National Flag of Pakistan?",
+      "options": {
+        "a": "Quaid-e-Azam",
+        "b": "Liaquat Ali Khan",
+        "c": "Fatima Jinnah",
+        "d": "Ameer-uddin Kidwai"
+      },
+      "answer": "d"
     },
-    "answer": "d"
-  },
-  {
-    "id": 14,
-    "question": "What is the highest mountain peak in Pakistan?",
-    "options": {
-      "a": "Nanga Parbat",
-      "b": "Rakaposhi",
-      "c": "K2",
-      "d": "Tirich Mir"
+    {
+      "id": 14,
+      "question": "What is the highest mountain peak in Pakistan?",
+      "options": {
+        "a": "Nanga Parbat",
+        "b": "Rakaposhi",
+        "c": "K2",
+        "d": "Tirich Mir"
+      },
+      "answer": "c"
     },
-    "answer": "c"
-  },
-  {
-    "id": 15,
-    "question": "Which river is the longest in Pakistan?",
-    "options": {
-      "a": "Jhelum",
-      "b": "Ravi",
-      "c": "Chenab",
-      "d": "Indus"
+    {
+      "id": 15,
+      "question": "Which river is the longest in Pakistan?",
+      "options": {
+        "a": "Jhelum",
+        "b": "Ravi",
+        "c": "Chenab",
+        "d": "Indus"
+      },
+      "answer": "d"
     },
-    "answer": "d"
-  },
-  {
-    "id": 16,
-    "question": "What is the national bird of Pakistan?",
-    "options": {
-      "a": "Eagle",
-      "b": "Chukar Partridge",
-      "c": "Falcon",
-      "d": "Peacock"
+    {
+      "id": 16,
+      "question": "What is the national bird of Pakistan?",
+      "options": {
+        "a": "Eagle",
+        "b": "Chukar Partridge",
+        "c": "Falcon",
+        "d": "Peacock"
+      },
+      "answer": "b"
     },
-    "answer": "b"
-  },
-  {
-    "id": 17,
-    "question": "The resolution was passed at Minto Park, which is also known as:",
-    "options": {
-      "a": "Lahore Park",
-      "b": "Greater Iqbal Park",
-      "c": "National Park Lahore",
-      "d": "Allama Iqbal Park"
+    {
+      "id": 17,
+      "question": "The resolution was passed at Minto Park, which is also known as:",
+      "options": {
+        "a": "Lahore Park",
+        "b": "Greater Iqbal Park",
+        "c": "National Park Lahore",
+        "d": "Allama Iqbal Park"
+      },
+      "answer": "b"
     },
-    "answer": "b"
-  },
-  {
-    "id": 18,
-    "question": "Who wrote 'Lab pe Aati Hai Dua'?",
-    "options": {
-      "a": "Sir Syed",
-      "b": "Fatima Ali Jinnah",
-      "c": "Allama Iqbal",
-      "d": "Atta Ur Rehman"
+    {
+      "id": 18,
+      "question": "Who wrote 'Lab pe Aati Hai Dua'?",
+      "options": {
+        "a": "Sir Syed",
+        "b": "Fatima Ali Jinnah",
+        "c": "Allama Iqbal",
+        "d": "Atta Ur Rehman"
+      },
+      "answer": "c"
     },
-    "answer": "c"
-  },
-  {
-    "id": 19,
-    "question": "Pakistan's first Prime Minister was:",
-    "options": {
-      "a": "Khawaja Nazimuddin",
-      "b": "Liaquat Ali Khan",
-      "c": "Muhammad Ali Bogra",
-      "d": "Chaudhry Muhammad Ali"
+    {
+      "id": 19,
+      "question": "Pakistan's first Prime Minister was:",
+      "options": {
+        "a": "Khawaja Nazimuddin",
+        "b": "Liaquat Ali Khan",
+        "c": "Muhammad Ali Bogra",
+        "d": "Chaudhry Muhammad Ali"
+      },
+      "answer": "b"
     },
-    "answer": "b"
-  },
-  {
-    "id": 20,
-    "question": "What Pakistani scientist was awarded the Nobel Prize in Physics in 1979?",
-    "options": {
-      "a": "Abdul Qadeer",
-      "b": "Ishfaq Ahmed",
-      "c": "Abdus Salam",
-      "d": "Atta Ur Rehman"
+    {
+      "id": 20,
+      "question": "What Pakistani scientist was awarded the Nobel Prize in Physics in 1979?",
+      "options": {
+        "a": "Abdul Qadeer",
+        "b": "Ishfaq Ahmed",
+        "c": "Abdus Salam",
+        "d": "Atta Ur Rehman"
+      },
+      "answer": "c"
     },
-    "answer": "c"
-  },
-  {
-    "id": 21,
-    "question": "Which city was the first capital of Pakistan?",
-    "options": {
-      "a": "Lahore",
-      "b": "Islamabad",
-      "c": "Karachi",
-      "d": "Rawalpindi"
+    {
+      "id": 21,
+      "question": "Which city was the first capital of Pakistan?",
+      "options": {
+        "a": "Lahore",
+        "b": "Islamabad",
+        "c": "Karachi",
+        "d": "Rawalpindi"
+      },
+      "answer": "c"
     },
-    "answer": "c"
-  },
-  {
-    "id": 22,
-    "question": "Which city is called the Manchester of Pakistan?",
-    "options": {
-      "a": "Faisalabad",
-      "b": "Lahore",
-      "c": "Islamabad",
-      "d": "Karachi"
+    {
+      "id": 22,
+      "question": "Which city is called the Manchester of Pakistan?",
+      "options": {
+        "a": "Faisalabad",
+        "b": "Lahore",
+        "c": "Islamabad",
+        "d": "Karachi"
+      },
+      "answer": "a"
     },
-    "answer": "a"
-  },
-  {
-    "id": 23,
-    "question": "How many stanzas does Pakistan's National Anthem have?",
-    "options": {
-      "a": "3",
-      "b": "4",
-      "c": "5",
-      "d": "6"
+    {
+      "id": 23,
+      "question": "How many stanzas does Pakistan's National Anthem have?",
+      "options": {
+        "a": "3",
+        "b": "4",
+        "c": "5",
+        "d": "6"
+      },
+      "answer": "a"
     },
-    "answer": "a"
-  },
-  {
-    "id": 24,
-    "question": "Which dam is the largest in Pakistan?",
-    "options": {
-      "a": "Hub Dam",
-      "b": "Warsak Dam",
-      "c": "Mangla Dam",
-      "d": "Tarbela Dam"
-    },
-    "answer": "d"
-  }
-]
+    {
+      "id": 24,
+      "question": "Which dam is the largest in Pakistan?",
+      "options": {
+        "a": "Hub Dam",
+        "b": "Warsak Dam",
+        "c": "Mangla Dam",
+        "d": "Tarbela Dam"
+      },
+      "answer": "d"
+    }
+  ]
+}
