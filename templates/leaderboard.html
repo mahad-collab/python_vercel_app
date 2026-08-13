@@ -15,6 +15,15 @@
         <h1>{{ quiz_title }}</h1>
       </div>
       <div class="card__body">
+        <p class="helper-text" style="margin-top:0;">
+          {% if show_all %}
+            Showing all {{ total_participants }} participant{{ 's' if total_participants != 1 else '' }}.
+            <a href="{{ url_for('leaderboard') }}">Show top 10 only</a>
+          {% else %}
+            Showing top 10 of {{ total_participants }} participant{{ 's' if total_participants != 1 else '' }}.
+            <a href="{{ url_for('leaderboard') }}?all=1">Show everyone</a>
+          {% endif %}
+        </p>
         {% if rows|length == 0 %}
           <p class="helper-text" style="margin-top:0;">No submissions yet — the board updates automatically as staff finish the quiz.</p>
         {% else %}
