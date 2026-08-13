@@ -14,6 +14,7 @@ See README.md for full deploy steps.
 import base64
 import io
 import json
+import os
 import time
 from pathlib import Path
 
@@ -26,7 +27,22 @@ QUESTIONS_PATH = BASE_DIR / "questions.json"
 app = Flask(__name__)
 app.secret_key = "change-this-secret-before-the-event"  # any random string; set via env var in prod if you like
 
-redis = Redis.from_env()  # reads UPSTASH_REDIS_REST_URL / UPSTASH_REDIS_REST_TOKEN
+# Vercel's Upstash integration may inject either the native Upstash names
+# (UPSTASH_REDIS_REST_URL/TOKEN) or the legacy Vercel KV names
+# (KV_REST_API_URL/TOKEN), depending on which install path was used.
+# Accept whichever is present so this doesn't silently crash.
+_redis_url = os.environ.get("UPSTASH_REDIS_REST_URL") or os.environ.get("KV_REST_API_URL")
+_redis_token = os.environ.get("UPSTASH_REDIS_REST_TOKEN") or os.environ.get("KV_REST_API_TOKEN")
+
+if not _redis_url or not _redis_token:
+    raise RuntimeError(
+        "No Redis credentials found in environment. Expected UPSTASH_REDIS_REST_URL "
+        "+ UPSTASH_REDIS_REST_TOKEN, or KV_REST_API_URL + KV_REST_API_TOKEN. "
+        "Make sure the Upstash integration is connected to this project in Vercel, "
+        "then redeploy so the environment variables take effect."
+    )
+
+redis = Redis(url=_redis_url, token=_redis_token)
 
 # ---------------------------------------------------------------------------
 # Load questions once per cold start
@@ -35,7 +51,7 @@ with open(QUESTIONS_PATH, "r", encoding="utf-8") as f:
     QUIZ = json.load(f)
 
 QUIZ_TITLE = QUIZ.get("quiz_title", "Company Quiz")
-DURATION_MINUTES = QUIZ.get("duration_minutes", 5)
+DURATION_MINUTES = QUIZ.get("duration_minutes", 10)
 DURATION_SECONDS = DURATION_MINUTES * 60
 QUESTIONS = QUIZ["questions"]
 ANSWER_KEY = {str(q["id"]): q["answer"] for q in QUESTIONS}
@@ -196,7 +212,9 @@ def submit_quiz(auto_timeout=False):
 
 @app.route("/leaderboard")
 def leaderboard():
-    top = redis.zrevrange("leaderboard", 0, 9, withscores=True)
+    show_all = request.args.get("all") == "1"
+    end = -1 if show_all else 9
+    top = redis.zrevrange("leaderboard", 0, end, withscores=True)
     rows = []
     for member, _score in top:
         data = redis.hgetall(submission_key(member))
@@ -210,7 +228,14 @@ def leaderboard():
                     "time_taken_seconds": float(data["time_taken_seconds"]),
                 }
             )
-    return render_template("leaderboard.html", quiz_title=QUIZ_TITLE, rows=rows)
+    total_participants = redis.zcard("leaderboard")
+    return render_template(
+        "leaderboard.html",
+        quiz_title=QUIZ_TITLE,
+        rows=rows,
+        show_all=show_all,
+        total_participants=total_participants,
+    )
 
 
 @app.route("/display")
@@ -222,11 +247,55 @@ def display():
     )
 
 
+ADMIN_KEY = "reset-me"  # change this before the event; reused by /admin/export too
+
+
+@app.route("/admin/export")
+def admin_export():
+    """Download every participant's result as a CSV, ranked highest score / fastest time first."""
+    key = request.args.get("key", "")
+    if key != ADMIN_KEY:
+        return "Not authorized", 403
+
+    import csv
+    import io as io_module
+
+    all_entries = redis.zrevrange("leaderboard", 0, -1, withscores=True)
+
+    output = io_module.StringIO()
+    writer = csv.writer(output)
+    writer.writerow(["Rank", "Employee ID", "Name", "Department", "Score", "Total Questions", "Time Taken (s)"])
+
+    for i, (member, _score) in enumerate(all_entries, start=1):
+        data = redis.hgetall(submission_key(member))
+        if data:
+            writer.writerow(
+                [
+                    i,
+                    member,
+                    data.get("employee_name", ""),
+                    data.get("department", ""),
+                    data.get("score", ""),
+                    data.get("total_questions", ""),
+                    round(float(data.get("time_taken_seconds", 0))),
+                ]
+            )
+
+    from flask import Response
+
+    return Response(
+        output.getvalue(),
+        mimetype="text/csv",
+        headers={"Content-Disposition": "attachment; filename=quiz_results.csv"},
+    )
+
+
 @app.route("/admin/reset")
 def admin_reset():
     """Wipe all submissions before the live event (use once, during rehearsal only)."""
     key = request.args.get("key", "")
-    if key != "reset-me":  # change this before use
+    if key != ADMIN_KEY:
+        return "Not authorized", 403
         return "Not authorized", 403
     ids = redis.smembers("submission_ids")
     for emp_id in ids:
