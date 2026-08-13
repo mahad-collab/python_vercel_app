@@ -162,6 +162,11 @@ input[type="text"]:focus {
   color: var(--muted);
   line-height: 1.5;
 }
+.helper-text a {
+  color: var(--flag-green);
+  font-weight: 700;
+  text-decoration: underline;
+}
 
 /* ---- Quiz page ---- */
 .quiz-shell {
@@ -349,6 +354,14 @@ tr:first-child .rank-pill { background: var(--gold); color: var(--deep-green); }
   justify-content: center;
   text-align: center;
   padding: 40px;
+}
+.display-shell .eyebrow-line {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: clamp(12px, 1.4vw, 15px);
+  font-weight: 700;
+  color: var(--gold);
+  margin-bottom: 14px;
 }
 .display-shell h1 {
   font-family: var(--font-display);
